@@ -1,6 +1,6 @@
 import connectDB from "@/lib/db"
 import contactFormValidation from '@/lib/form.validation';
-import ContactForm from "@/model/form.mode"
+import ContactForm from "@/model/form.model"
 import { ZodError } from "zod";
 
 export async function POST(req: Request) {
