@@ -4,7 +4,7 @@ export default function Footer() {
             <div className="max-w-[1200px] mx-auto px-8">
                 <div className="flex flex-col md:flex-row justify-between items-center gap-6">
                     <div className="text-gray-400 text-sm">
-                        © 2024 All rights reserved.
+                        © {new Date().getFullYear()} Made by higaurav.com. All rights reserved.
                     </div>
                     
                     <div className="flex gap-6">

@@ -3,15 +3,15 @@ const testimonials = [
     id: 1,
     image: "/clients/manoj.webp",
     name: "Manoj Jayant",
-    role: "Sales Manager",
-    testimonial: "Working with this team was an absolute pleasure. They delivered our project on time and exceeded our expectations. Their attention to detail and creative solutions made all the difference."
+    role: "Sales Manager @ Prime Infra",
+    testimonial: " I'm really impressed with the website! It’s modern, fast, and showcases The Prime Infra perfectly. The whole process was smooth, and the final result truly helps us connect better with our clients. Highly recommended! "
   },
   {
     id: 2,
-    image: "/clients/deepak.webp",
-    name: "Deepak kathayat",
-    role: "Sales Executive",
-    testimonial: "The level of professionalism and technical expertise demonstrated throughout our project was impressive. They turned our vision into reality with remarkable efficiency."
+    image: "/clients/deepak.jpg",
+    name: "Deepak Pal",
+    role: "CEO @ Pixel Animation",
+    testimonial: "The website looks fantastic! It’s clean, professional, and very easy to navigate. It really helps us present The Prime Infra in the best way to our clients. Great job!."
   },
   {
     id: 3,

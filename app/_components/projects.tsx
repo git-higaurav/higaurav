@@ -2,37 +2,37 @@ export default function Projects() {
   const projects = [
     {
       title: "Pixel Animation",
-      description: "A modern, responsive portfolio website built with Next.js 14, TypeScript, and Tailwind CSS. Features smooth animations, dark mode, and optimized performance.",
-      technologies: ["Next.js 14", "TypeScript", "Tailwind CSS"],
-      liveUrl: "https://portfolio-demo.com",
-      sourceUrl: "https://github.com/username/portfolio",
+      description: "Pixel Animation is a creative institute offering training in graphic motion, video editing, and 2D animation. This full-stack project, built with Next.js, delivers a smooth, responsive platform to showcase courses, student projects, and institute information.",
+      technologies: ["Next.js 14", "TypeScript", "Tailwind CSS" , "Mongodb" , "Appwrite" ],
+      liveUrl: "http://thepixelanimation.com/",
+      sourceUrl: "https://github.com/git-higaurav/pixelanimation.git",
       image: "/projects/thepixelanimation.png",
-      alt: "Portfolio Website"
+      alt: "Institute Website"
     },
     {
       title: "The Prime Infra",
-      description: "A full-stack task management application using React, Node.js, and MongoDB. Includes real-time updates, collaborative features, and mobile responsiveness.",
-      technologies: ["React", "Node.js", "MongoDB"],
-      liveUrl: "https://taskapp-demo.com",
-      sourceUrl: "https://github.com/username/taskapp",
+      description: "The Prime Infra is a real estate platform offering the best deals in property and investments. Built with a full-stack Next.js setup, the site provides a modern, responsive experience to showcase listings, projects, and company details.",
+      technologies: ["Next Js", "Appwrite", "MongoDB","Tpyescript"],
+      liveUrl: "http://theprimeinfra.com/",
+      sourceUrl: "#",
       image: "/projects/theprimeinfra.png",
-      alt: "Task Management App"
+      alt: "The Prime Infra Website"
     },
     {
       title: "Project X Flow",
       description: "A full-stack task management application using React, Node.js, and MongoDB. Includes real-time updates, collaborative features, and mobile responsiveness.",
-      technologies: ["React", "Node.js", "MongoDB"],
-      liveUrl: "https://taskapp-demo.com",
+      technologies: ["React Vite", "Node.js", "MongoDB" , "Expres Js", "JWT"],
+      liveUrl: "https://projectflow-nu.vercel.app/",
       sourceUrl: "https://github.com/username/taskapp",
       image: "/projects/projectxflow.png",
       alt: "Task Management App"
     },
     {
-      title: "SUMIT WALIA PORTFOLIO",
-      description: "A full-stack task management application using React, Node.js, and MongoDB. Includes real-time updates, collaborative features, and mobile responsiveness.",
+      title: "Hi Sumit ( Portfolio )",
+      description: "Sumit Walia Portfolio showcases the work of a talented motion graphic artist and video editor. Built with a full-stack Next.js setup, it offers a sleek, responsive experience to highlight projects, skills, and creative achievements.",
       technologies: ["React", "Node.js", "MongoDB"],
-      liveUrl: "https://taskapp-demo.com",
-      sourceUrl: "https://github.com/username/taskapp",
+      liveUrl: "https://hisumit.vercel.app/",
+      sourceUrl: "https://github.com/git-higaurav/hisumit.git",
       image: "/projects/hisumit.png",
       alt: "Task Management App"
     },
@@ -40,10 +40,10 @@ export default function Projects() {
       title: "My Portfolio",
       description: "A full-stack task management application using React, Node.js, and MongoDB. Includes real-time updates, collaborative features, and mobile responsiveness.",
       technologies: ["React", "Node.js", "MongoDB"],
-      liveUrl: "https://taskapp-demo.com",
-      sourceUrl: "https://github.com/username/taskapp",
+      liveUrl: "https://higaurav.com",
+      sourceUrl: "https://github.com/git-higaurav/higaurav.git",
       image: "/projects/portfolio.png",
-      alt: "Task Management App"
+      alt: "Portfolio Website"
     }
   ];
 
