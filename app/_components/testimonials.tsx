@@ -15,7 +15,7 @@ const testimonials = [
   },
   {
     id: 3,
-    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100",
+    image: "/clients/sumit.jpg",
     name: "Sumit Walia",
     role: "Motion & Graphics Designer",
     testimonial: "Their innovative approach to problem-solving and commitment to quality made them stand out. The end result was exactly what we needed for our business growth."
