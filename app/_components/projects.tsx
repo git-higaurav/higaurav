@@ -33,7 +33,7 @@ export default function Projects() {
       technologies: ["React", "Node.js", "MongoDB"],
       liveUrl: "https://hisumit.vercel.app/",
       sourceUrl: "https://github.com/git-higaurav/hisumit.git",
-      image: "/projects/hisumit.png",
+      image: "/projects/hisumit.vercel.app.png",
       alt: "Task Management App"
     },
     {
