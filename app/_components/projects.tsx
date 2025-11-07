@@ -1,51 +1,99 @@
 export default function Projects() {
+  // const projects = [
+  //   {
+  //     title: "Pixel Animation",
+  //     description: "Pixel Animation is a creative institute offering training in graphic motion, video editing, and 2D animation. This full-stack project, built with Next.js, delivers a smooth, responsive platform to showcase courses, student projects, and institute information.",
+  //     technologies: ["Next.js 14", "TypeScript", "Tailwind CSS" , "Mongodb" , "Appwrite" ],
+  //     liveUrl: "http://thepixelanimation.com/",
+  //     sourceUrl: "https://github.com/git-higaurav/pixelanimation.git",
+  //     image: "/projects/thepixelanimation.png",
+  //     alt: "Institute Website"
+  //   },
+  //   {
+  //     title: "The Prime Infra",
+  //     description: "The Prime Infra is a real estate platform offering the best deals in property and investments. Built with a full-stack Next.js setup, the site provides a modern, responsive experience to showcase listings, projects, and company details.",
+  //     technologies: ["Next Js", "Appwrite", "MongoDB","Tpyescript"],
+  //     liveUrl: "http://theprimeinfra.com/",
+  //     sourceUrl: "#",
+  //     image: "/projects/theprimeinfra.png",
+  //     alt: "The Prime Infra Website"
+  //   },
+  //   {
+  //     title: "Project X Flow",
+  //     description: "A full-stack task management application using React, Node.js, and MongoDB. Includes real-time updates, collaborative features, and mobile responsiveness.",
+  //     technologies: ["React Vite", "Node.js", "MongoDB" , "Expres Js", "JWT"],
+  //     liveUrl: "https://projectflow-nu.vercel.app/",
+  //     sourceUrl: "https://github.com/username/taskapp",
+  //     image: "/projects/projectxflow.png",
+  //     alt: "Task Management App"
+  //   },
+  //   {
+  //     title: "Hi Sumit ( Portfolio )",
+  //     description: "Sumit Walia Portfolio showcases the work of a talented motion graphic artist and video editor. Built with a full-stack Next.js setup, it offers a sleek, responsive experience to highlight projects, skills, and creative achievements.",
+  //     technologies: ["React", "Node.js", "MongoDB"],
+  //     liveUrl: "https://hisumit.vercel.app/",
+  //     sourceUrl: "https://github.com/git-higaurav/hisumit.git",
+  //     image: "/projects/hisumit.vercel.app.png",
+  //     alt: "Task Management App"
+  //   },
+  //   {
+  //     title: "My Portfolio",
+  //     description: "A full-stack task management application using React, Node.js, and MongoDB. Includes real-time updates, collaborative features, and mobile responsiveness.",
+  //     technologies: ["React", "Node.js", "MongoDB"],
+  //     liveUrl: "https://higaurav.com",
+  //     sourceUrl: "https://github.com/git-higaurav/higaurav.git",
+  //     image: "/projects/portfolio.png",
+  //     alt: "Portfolio Website"
+  //   }
+  // ];
+
   const projects = [
-    {
-      title: "Pixel Animation",
-      description: "Pixel Animation is a creative institute offering training in graphic motion, video editing, and 2D animation. This full-stack project, built with Next.js, delivers a smooth, responsive platform to showcase courses, student projects, and institute information.",
-      technologies: ["Next.js 14", "TypeScript", "Tailwind CSS" , "Mongodb" , "Appwrite" ],
-      liveUrl: "http://thepixelanimation.com/",
-      sourceUrl: "https://github.com/git-higaurav/pixelanimation.git",
-      image: "/projects/thepixelanimation.png",
-      alt: "Institute Website"
-    },
-    {
-      title: "The Prime Infra",
-      description: "The Prime Infra is a real estate platform offering the best deals in property and investments. Built with a full-stack Next.js setup, the site provides a modern, responsive experience to showcase listings, projects, and company details.",
-      technologies: ["Next Js", "Appwrite", "MongoDB","Tpyescript"],
-      liveUrl: "http://theprimeinfra.com/",
-      sourceUrl: "#",
-      image: "/projects/theprimeinfra.png",
-      alt: "The Prime Infra Website"
-    },
-    {
-      title: "Project X Flow",
-      description: "A full-stack task management application using React, Node.js, and MongoDB. Includes real-time updates, collaborative features, and mobile responsiveness.",
-      technologies: ["React Vite", "Node.js", "MongoDB" , "Expres Js", "JWT"],
-      liveUrl: "https://projectflow-nu.vercel.app/",
-      sourceUrl: "https://github.com/username/taskapp",
-      image: "/projects/projectxflow.png",
-      alt: "Task Management App"
-    },
-    {
-      title: "Hi Sumit ( Portfolio )",
-      description: "Sumit Walia Portfolio showcases the work of a talented motion graphic artist and video editor. Built with a full-stack Next.js setup, it offers a sleek, responsive experience to highlight projects, skills, and creative achievements.",
-      technologies: ["React", "Node.js", "MongoDB"],
-      liveUrl: "https://hisumit.vercel.app/",
-      sourceUrl: "https://github.com/git-higaurav/hisumit.git",
-      image: "/projects/hisumit.vercel.app.png",
-      alt: "Task Management App"
-    },
-    {
-      title: "My Portfolio",
-      description: "A full-stack task management application using React, Node.js, and MongoDB. Includes real-time updates, collaborative features, and mobile responsiveness.",
-      technologies: ["React", "Node.js", "MongoDB"],
-      liveUrl: "https://higaurav.com",
-      sourceUrl: "https://github.com/git-higaurav/higaurav.git",
-      image: "/projects/portfolio.png",
-      alt: "Portfolio Website"
-    }
-  ];
+  {
+    title: "Pixel Animation",
+    description: "A full-stack Next.js platform for a creative institute offering courses in graphic motion, video editing, and 2D animation.",
+    technologies: ["Next.js 14", "TypeScript", "Tailwind CSS", "Mongodb", "Appwrite"],
+    liveUrl: "http://thepixelanimation.com/",
+    sourceUrl: "https://github.com/git-higaurav/pixelanimation.git",
+    image: "/projects/thepixelanimation.png",
+    alt: "Institute Website"
+  },
+  {
+    title: "The Prime Infra",
+    description: "A modern real estate platform built with Next.js to showcase listings, projects, and investment opportunities.",
+    technologies: ["Next Js", "Appwrite", "MongoDB", "Tpyescript"],
+    liveUrl: "http://theprimeinfra.com/",
+    sourceUrl: "#",
+    image: "/projects/theprimeinfra.png",
+    alt: "The Prime Infra Website"
+  },
+  {
+    title: "Project X Flow",
+    description: "A task management app with real-time updates, collaboration, and mobile responsiveness.",
+    technologies: ["React Vite", "Node.js", "MongoDB", "Expres Js", "JWT"],
+    liveUrl: "https://projectflow-nu.vercel.app/",
+    sourceUrl: "https://github.com/username/taskapp",
+    image: "/projects/projectxflow.png",
+    alt: "Task Management App"
+  },
+  {
+    title: "Hi Sumit ( Portfolio )",
+    description: "A portfolio website for a motion graphic artist built with Next.js to showcase work and skills.",
+    technologies: ["React", "Node.js", "MongoDB"],
+    liveUrl: "https://hisumit.vercel.app/",
+    sourceUrl: "https://github.com/git-higaurav/hisumit.git",
+    image: "/projects/hisumit.vercel.app.png",
+    alt: "Task Management App"
+  },
+  {
+    title: "My Portfolio",
+    description: "A personal portfolio website built with React and Node.js to showcase projects and experience.",
+    technologies: ["React", "Node.js", "MongoDB"],
+    liveUrl: "https://higaurav.com",
+    sourceUrl: "https://github.com/git-higaurav/higaurav.git",
+    image: "/projects/portfolio.png",
+    alt: "Portfolio Website"
+  }
+];
 
   return (
     <div className="min-h-screen bg-[#0a0a0a] flex items-center justify-center py-10 sm:py-16 md:py-20">
